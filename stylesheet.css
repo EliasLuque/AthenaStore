@@ -1,0 +1,19 @@
+.nav-desktop {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 50px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.nav-desktop-list {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.icon-item {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px;
+    padding: 10px;
+}
