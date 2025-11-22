@@ -1,3 +1,14 @@
+.body {
+    font-family: "Cormorant Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 32px;
+    /* background-image: url(src/Gemini_Generated_Image_1o2v361o2v361o2v.png);
+    background-size: cover; */
+    background: url(src/Gemini_Generated_Image_1o2v361o2v361o2v.png) top / cover fixed;
+}
+
 .nav-desktop {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
@@ -9,6 +20,17 @@
 .nav-desktop-list {
     display: flex;
     justify-content: space-evenly;
+    letter-spacing: 4px;
+}
+
+.nav-list-link{
+    text-transform: uppercase;
+    text-decoration: none;
+    border-color: #000;
+    border-style: solid;
+    border-radius: 1em;
+    border-width: 10px;
+    padding: 1em;
 }
 
 .icon-item {
@@ -16,4 +38,9 @@
     justify-content: space-evenly;
     margin: 50px;
     padding: 10px;
+}
+
+.logo {
+    width: 396px;
+    height: 168px;
 }
